@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../images/background.jpg');
+    background-size: cover;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    color: coral;
+    text-shadow: 3px 3px black;
+    font-size: 12vh;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo {
+    width: 55vh;
+    height: 55vh;
+    border-radius: 50%;
+    border: 2px solid coral;
+}
+
+.centered {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
