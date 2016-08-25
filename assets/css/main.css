@@ -31,3 +31,12 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.social {
+    display: flex;
+    flex: 2;
+}
+
+.fb-like {
+    margin-right: 50px;
+}
