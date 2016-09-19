@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plush! - Hot Chiwawa</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="assets/js/slider.js"></script>
+  <link href="assets/css/slider.css" rel="stylesheet" />
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1729738380622263";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header/>
+<main role="main" class="centered">
+  <h1 class="animated rubberBand">P l u s h !</h1>
+  <ul class="slider">
+    <li><img src="assets/img/demo-1.png" /></li>
+    <li><img src="assets/img/demo-2.png" /></li>
+    <li><img src="assets/img/demo-3.png" /></li>
+    <li><img src="assets/img/demo-4.png" /></li>
+  </ul>
+  <div class="social">
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+    <div><a href="https://twitter.com/hotchiwawa" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+  </div>
+</main>
+<footer/>
+<script>$(document).ready(function(){
+  $('.slider').bxSlider({
+    minSlides: 1,
+    maxSlides: 1,
+    slideWidth: 200,
+    ticker: true,
+    speed: 10000
+  });
+});</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-color: #330066;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-shadow: 3px 3px black;
+    font-size: 12vh;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo {
+    width: 55vh;
+    height: 55vh;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 85%, 50%);
+}
+
+.centered {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex: 2;
+}
+
+.fb-like {
+    margin-right: 50px;
+}
